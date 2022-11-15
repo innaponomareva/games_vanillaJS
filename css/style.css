@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf6f9;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  min-width: 1000px;
+  margin: 0 auto;
+  min-height: calc(100vh - 140px);
+}
+
+.header {
+  border-bottom: 2px solid #68bacc;
+  background-color: #9fd3df;
+  height: 70px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.header a {
+  color: #0d2226;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.header a:hover {
+  color: #21555f;
+  font-weight: 500;
+}
+
+.box_text {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.box_text p {
+  color: #242424;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.center {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 0 auto;
+  font-weight: 200;
+}
+
+.avatar {
+  display: inline-block;
+  max-width: 200px;
+  margin: 0 auto 20px;
+  display: block;
+  border-radius: 50%;
+}
+
+.games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game_btn {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #3c97aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.box_choice a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+}
+
+.games a:hover .game_btn {
+  border: 6px solid #9fd3df;
+}
+
+.content .box_choice {
+  margin-bottom: 50px;
+}
+
+.content .box {
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.content .box .info {
+  color: #242424;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 37px;
+  margin-bottom: 30px;
+}
+
+.content .box input {
+  display: block;
+  border: 1px solid #3c97aa;
+  background-color: #fff;
+  width: 457px;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0px auto 12px;
+}
+
+.content .box a {
+  display: block;
+  width: fit-content;
+  background-color: #68bacc;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px auto 0;
+  padding: 12px 20px;
+}
+
+.content .box a:hover {
+  background-color: #3c97aa;
+}
+
+#repeat {
+  display: none;
+}
+
+.footer {
+  /* # == id */
+  background-color: #68bacc;
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 140px;
+}

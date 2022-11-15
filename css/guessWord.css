@@ -1,0 +1,27 @@
+/* Guess the word */
+
+.help_text {
+  font-size: 17px;
+  font-weight: 100;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.lines {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 3rem;
+  color: #3c97aa;
+}
+
+.checkBtn {
+  cursor: pointer;
+}
+
+.message {
+  line-height: 2rem;
+}
+
+.shake_animation {
+  animation: shakeX 0.1s ease;
+}
