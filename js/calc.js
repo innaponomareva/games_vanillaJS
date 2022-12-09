@@ -50,7 +50,6 @@ function calc() {
 
 const reducerSignOnClick = (sign) => {
   inputArray = [];
-  console.log("array", array);
   if (array.some((item) => isNaN(item) && item !== ".")) {
     for (let i = 0; i < array.length; i++) {
       if (isNaN(array[i]) && isNaN(array[i + 1])) {
@@ -75,6 +74,7 @@ const pointOnClick = () => {
 const clearInputOnClick = () => {
   input.value = "0";
   array = [];
+  inputArray = [];
 };
 
 const equalSignOnClick = () => {
